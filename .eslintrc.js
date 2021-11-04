@@ -3,6 +3,8 @@ module.exports = {
   plugins: ['sort-keys-fix'],
   root: true,
   rules: {
+    'import/order': 'error',
+
     // always add empty line between statements
     'padding-line-between-statements': [
       'error',
@@ -38,7 +40,6 @@ module.exports = {
       },
     ],
 
-    // enables "fix" for sort-keys rule
     'sort-keys-fix/sort-keys-fix': 'error',
   },
 }

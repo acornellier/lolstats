@@ -1,3 +1,6 @@
+crawler/matches/
+sandbox/
+
 # dependencies
 node_modules
 .yarn/*

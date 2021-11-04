@@ -2,6 +2,7 @@
   "name": "lolstats",
   "version": "1.0.0",
   "scripts": {
+    "crawl": "esr crawler/crawler.ts",
     "dev": "blitz dev",
     "build": "blitz build",
     "start": "blitz start",
@@ -17,7 +18,8 @@
   "prettier": {
     "semi": false,
     "printWidth": 80,
-    "singleQuote": true
+    "singleQuote": true,
+    "trailingComma": "all"
   },
   "lint-staged": {
     "*.{js,ts,tsx}": [
@@ -25,26 +27,35 @@
     ]
   },
   "dependencies": {
-    "@hookform/resolvers": "2.8.2",
-    "@prisma/client": "3.3.0",
-    "blitz": "0.41.1",
+    "@hookform/resolvers": "2.8.3",
+    "@prisma/client": "3.4.0",
+    "autoprefixer": "10",
+    "blitz": "0.42.0",
+    "pg": "8.7.1",
+    "postcss": "8",
     "react": "alpha",
     "react-dom": "alpha",
-    "react-hook-form": "7.18.0",
+    "react-hook-form": "7.18.1",
+    "tailwindcss": "2.2.19",
     "twisted": "1.46.3",
     "zod": "3.11.6"
   },
   "devDependencies": {
-    "@types/react": "17.0.33",
-    "eslint": "7.32.0",
+    "@types/dotenv-flow": "3.2.0",
+    "@types/pg": "8.6.1",
+    "@types/react": "17.0.34",
+    "cross-fetch": "3.1.4",
+    "dotenv-flow": "3.2.0",
+    "esbuild-runner": "2.2.1",
+    "eslint": "8.1.0",
     "eslint-plugin-sort-keys-fix": "1.1.2",
-    "husky": "6.0.0",
-    "lint-staged": "10.5.4",
+    "husky": "7.0.4",
+    "lint-staged": "11.2.6",
     "prettier": "2.4.1",
-    "prettier-plugin-prisma": "0.15.0",
+    "prettier-plugin-prisma": "3.3.0",
     "pretty-quick": "3.1.1",
-    "prisma": "3.3.0",
-    "typescript": "~4.3"
+    "prisma": "3.4.0",
+    "typescript": "4.5.1-rc"
   },
   "private": true
 }
