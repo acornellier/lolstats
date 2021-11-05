@@ -1087,12 +1087,12 @@
   "resolved" "https://registry.npmjs.org/@oclif/screen/-/screen-1.0.4.tgz"
   "version" "1.0.4"
 
-"@prisma/client@3.4.0":
-  "integrity" "sha512-rjnp7dPVArqT/VgeWllUN+5927u224Gud//d16omL2hyXl9BnWzmeZJQ0plTYuP5yCR/M1N4iUC8ysDPlhA08g=="
-  "resolved" "https://registry.npmjs.org/@prisma/client/-/client-3.4.0.tgz"
-  "version" "3.4.0"
+"@prisma/client@3.4.1":
+  "integrity" "sha512-tUlPSyGiZfmt9xTtvZK8d8cqu76QLCM+rFt7+ezpau/G0VwzetuGVmT28c61Eaw7OW2KmsTHRk8LUxI7HZS3kA=="
+  "resolved" "https://registry.npmjs.org/@prisma/client/-/client-3.4.1.tgz"
+  "version" "3.4.1"
   dependencies:
-    "@prisma/engines-version" "3.4.0-27.1c9fdaa9e2319b814822d6dbfd0a69e1fcc13a85"
+    "@prisma/engines-version" "3.4.1-2.57771c0558568c7d08bd34c7248af5244ae16bd9"
 
 "@prisma/debug@2.19.0":
   "integrity" "sha512-rCFF69WVC2G8x89UaIf786m+Ik1CcEq8XiJ10kIHezOECJQRZAHVjuCXrCnHa9Z1D5r8xaSw6/SuCAmr0Fuedg=="
@@ -1120,20 +1120,20 @@
     "terminal-link" "^2.1.1"
     "undici" "3.3.3"
 
-"@prisma/engines-version@3.4.0-27.1c9fdaa9e2319b814822d6dbfd0a69e1fcc13a85":
-  "integrity" "sha512-acL30wD3lj6qGAN9JIA+fhcd8j5I+Db9d1Pge2jwmK/QVbmbnH+lhTMV5pYIdgxbZWs9R+DoNnOHvUQCOW1xeQ=="
-  "resolved" "https://registry.npmjs.org/@prisma/engines-version/-/engines-version-3.4.0-27.1c9fdaa9e2319b814822d6dbfd0a69e1fcc13a85.tgz"
-  "version" "3.4.0-27.1c9fdaa9e2319b814822d6dbfd0a69e1fcc13a85"
+"@prisma/engines-version@3.4.1-2.57771c0558568c7d08bd34c7248af5244ae16bd9":
+  "integrity" "sha512-H8bnBT5jLap+0nULBAGjf+xb5XNn4d60U4J9cck+UanyEkeMS3aYCeHvNiQl46XwvN60jkUX8BwV3NOEmPh0SQ=="
+  "resolved" "https://registry.npmjs.org/@prisma/engines-version/-/engines-version-3.4.1-2.57771c0558568c7d08bd34c7248af5244ae16bd9.tgz"
+  "version" "3.4.1-2.57771c0558568c7d08bd34c7248af5244ae16bd9"
 
 "@prisma/engines@2.19.0-39.c1455d0b443d66b0d9db9bcb1bb9ee0d5bbc511d":
   "integrity" "sha512-rEWpaG7wZvPuWJC5SwkBB/Iwue//oC5yv58Mse7r+ibtgkA7vGdWc1bFDQ32DT9tDL5WSC6bBwqEASGV/1Gm1Q=="
   "resolved" "https://registry.npmjs.org/@prisma/engines/-/engines-2.19.0-39.c1455d0b443d66b0d9db9bcb1bb9ee0d5bbc511d.tgz"
   "version" "2.19.0-39.c1455d0b443d66b0d9db9bcb1bb9ee0d5bbc511d"
 
-"@prisma/engines@3.4.0-27.1c9fdaa9e2319b814822d6dbfd0a69e1fcc13a85":
-  "integrity" "sha512-jyCjXhX1ZUbzA7+6Hm0iEdeY+qFfpD/RB7iSwMrMoIhkVYvnncSdCLBgbK0yqxTJR2nglevkDY2ve3QDxFciMA=="
-  "resolved" "https://registry.npmjs.org/@prisma/engines/-/engines-3.4.0-27.1c9fdaa9e2319b814822d6dbfd0a69e1fcc13a85.tgz"
-  "version" "3.4.0-27.1c9fdaa9e2319b814822d6dbfd0a69e1fcc13a85"
+"@prisma/engines@3.4.1-2.57771c0558568c7d08bd34c7248af5244ae16bd9":
+  "integrity" "sha512-NO4Q88k3CfUpYzfpDD+0wSVCqhaeljCFAGSe1XyvmXAOlMU2AAjCwmRn6S4UXlT9yEGB/LwFjdvGjcgfUQ+Mtw=="
+  "resolved" "https://registry.npmjs.org/@prisma/engines/-/engines-3.4.1-2.57771c0558568c7d08bd34c7248af5244ae16bd9.tgz"
+  "version" "3.4.1-2.57771c0558568c7d08bd34c7248af5244ae16bd9"
 
 "@prisma/fetch-engine@2.19.0":
   "integrity" "sha512-Hc0OhvzWoGFQnsApGH//LSHdQggXIys/U1VQQpjOPowe5l1PQZBV/drHLrDo8jxkmQfTTFvSxcOeflkky2Bj0g=="
@@ -7804,12 +7804,12 @@
   "resolved" "https://registry.npmjs.org/prettysize/-/prettysize-2.0.0.tgz"
   "version" "2.0.0"
 
-"prisma@3.4.0":
-  "integrity" "sha512-W0AFjVxPOLW5SEnf0ZwbOu4k8ElX98ioFC1E8Gb9Q/nuO2brEwxFJebXglfG+N6zphGbu2bG1I3VAu7aYzR3VA=="
-  "resolved" "https://registry.npmjs.org/prisma/-/prisma-3.4.0.tgz"
-  "version" "3.4.0"
+"prisma@3.4.1":
+  "integrity" "sha512-APws/xRa1wYd064KV7hByQzWiBMUy/yQ501XXrsRZegXAQ/j1obG2HCk34MEbgn8IqLSRLaXyhCYz4R4HwRmMQ=="
+  "resolved" "https://registry.npmjs.org/prisma/-/prisma-3.4.1.tgz"
+  "version" "3.4.1"
   dependencies:
-    "@prisma/engines" "3.4.0-27.1c9fdaa9e2319b814822d6dbfd0a69e1fcc13a85"
+    "@prisma/engines" "3.4.1-2.57771c0558568c7d08bd34c7248af5244ae16bd9"
 
 "private@~0.1.5":
   "integrity" "sha512-VvivMrbvd2nKkiG38qjULzlc+4Vx4wm/whI9pQD35YrARNnhxeiRktSOhSukRLFNlzg6Br/cJPet5J/u19r/mg=="
