@@ -628,10 +628,10 @@
     "exec-sh" "^0.3.2"
     "minimist" "^1.2.0"
 
-"@eslint/eslintrc@^1.0.3":
-  "integrity" "sha512-DHI1wDPoKCBPoLZA3qDR91+3te/wDSc1YhKg3jR8NxKKRJq2hwHwcWv31cSwSYvIBrmbENoYMWcenW8uproQqg=="
-  "resolved" "https://registry.npmjs.org/@eslint/eslintrc/-/eslintrc-1.0.3.tgz"
-  "version" "1.0.3"
+"@eslint/eslintrc@^1.0.4":
+  "integrity" "sha512-h8Vx6MdxwWI2WM8/zREHMoqdgLNXEL4QX3MWSVMdyNJGvXVOs+6lp+m2hc3FnuMHDc4poxFNI20vCk0OmI4G0Q=="
+  "resolved" "https://registry.npmjs.org/@eslint/eslintrc/-/eslintrc-1.0.4.tgz"
+  "version" "1.0.4"
   dependencies:
     "ajv" "^6.12.4"
     "debug" "^4.3.2"
@@ -639,7 +639,7 @@
     "globals" "^13.9.0"
     "ignore" "^4.0.6"
     "import-fresh" "^3.2.1"
-    "js-yaml" "^3.13.1"
+    "js-yaml" "^4.1.0"
     "minimatch" "^3.0.4"
     "strip-json-comments" "^3.1.1"
 
@@ -3991,12 +3991,12 @@
   "resolved" "https://registry.npmjs.org/eslint-visitor-keys/-/eslint-visitor-keys-3.0.0.tgz"
   "version" "3.0.0"
 
-"eslint@8.1.0":
-  "integrity" "sha512-JZvNneArGSUsluHWJ8g8MMs3CfIEzwaLx9KyH4tZ2i+R2/rPWzL8c0zg3rHdwYVpN/1sB9gqnjHwz9HoeJpGHw=="
-  "resolved" "https://registry.npmjs.org/eslint/-/eslint-8.1.0.tgz"
-  "version" "8.1.0"
+"eslint@8.2.0":
+  "integrity" "sha512-erw7XmM+CLxTOickrimJ1SiF55jiNlVSp2qqm0NuBWPtHYQCegD5ZMaW0c3i5ytPqL+SSLaCxdvQXFPLJn+ABw=="
+  "resolved" "https://registry.npmjs.org/eslint/-/eslint-8.2.0.tgz"
+  "version" "8.2.0"
   dependencies:
-    "@eslint/eslintrc" "^1.0.3"
+    "@eslint/eslintrc" "^1.0.4"
     "@humanwhocodes/config-array" "^0.6.0"
     "ajv" "^6.10.0"
     "chalk" "^4.0.0"
@@ -4030,7 +4030,7 @@
     "progress" "^2.0.0"
     "regexpp" "^3.2.0"
     "semver" "^7.2.1"
-    "strip-ansi" "^6.0.0"
+    "strip-ansi" "^6.0.1"
     "strip-json-comments" "^3.1.0"
     "text-table" "^0.2.0"
     "v8-compile-cache" "^2.0.3"
