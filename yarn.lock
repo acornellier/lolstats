@@ -7752,10 +7752,10 @@
   "resolved" "https://registry.npmjs.org/prelude-ls/-/prelude-ls-1.1.2.tgz"
   "version" "1.1.2"
 
-"prettier-plugin-prisma@3.3.0":
-  "integrity" "sha512-axCTxDHYc7PBJQfW1Flda1Uo5g0tev0xyFKWZyRqKi56jlAod+xSuV4nCdcWJGQKsgFuzTNIrU0fAJCtXwSSHQ=="
-  "resolved" "https://registry.npmjs.org/prettier-plugin-prisma/-/prettier-plugin-prisma-3.3.0.tgz"
-  "version" "3.3.0"
+"prettier-plugin-prisma@3.4.1":
+  "integrity" "sha512-SwDSPwD9H6P5gtqUyavNyZjFuR8HeKE+yOikTBS8XkrHvgOZv1KKJiFU/Jcdf9Ds705LMMGhI4mBrsfwkDcJYA=="
+  "resolved" "https://registry.npmjs.org/prettier-plugin-prisma/-/prettier-plugin-prisma-3.4.1.tgz"
+  "version" "3.4.1"
 
 "prettier@2.4.1":
   "integrity" "sha512-9fbDAXSBcc6Bs1mZrDYb3XKzDLm4EXXL9sC1LqKP5rZkT6KRr/rf9amVUcODVXgguK/isJz0d0hP72WeaKWsvA=="
