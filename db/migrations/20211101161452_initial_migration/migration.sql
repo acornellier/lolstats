@@ -39,5 +39,8 @@ alter table "Participant"
 create index "Participant_matchId_idx" on "Participant" ("matchId");
 
 -- CreateIndex
+create index "Participant_championKey_idx" on "Participant" ("championKey");
+
+-- CreateIndex
 create index "Participant_items_idx" on "Participant" using GIN (items);
 

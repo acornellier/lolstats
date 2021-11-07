@@ -2,12 +2,15 @@ import { useFetchQuery } from '../utils/queryUtils'
 import { DdragonImageType } from './image'
 import { ddragonUrl } from './constants'
 
-interface ItemDefinition {
-  name: string
+export interface ItemDefinition {
+  description: string
+  depth?: number
+  gold: { total: number }
   image: DdragonImageType
+  name: string
 }
 
-interface ItemDefinitions {
+export interface ItemDefinitions {
   data: Record<number, ItemDefinition>
 }
 

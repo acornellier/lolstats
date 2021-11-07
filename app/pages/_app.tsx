@@ -7,9 +7,10 @@ import {
 } from 'blitz'
 import { ReactQueryDevtools } from 'react-query/devtools'
 import 'app/core/styles/index.css'
+import { Layout } from 'app/core/layouts/Layout'
 
 export default function App({ Component, pageProps }: AppProps) {
-  const getLayout = Component.getLayout || ((page) => page)
+  const getLayout = Component.getLayout || ((page) => <Layout>{page}</Layout>)
 
   return (
     <ErrorBoundary

@@ -6,7 +6,7 @@ type LayoutProps = {
   children: ReactNode
 }
 
-const Layout = ({ title, children }: LayoutProps) => {
+export const Layout = ({ title, children }: LayoutProps) => {
   return (
     <>
       <Head>
@@ -14,9 +14,9 @@ const Layout = ({ title, children }: LayoutProps) => {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      {children}
+      <div className="h-screen bg-blueGray-800 text-white text-opacity-90">
+        <div className="container mx-auto">{children}</div>
+      </div>
     </>
   )
 }
-
-export default Layout

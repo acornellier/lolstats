@@ -1,5 +1,5 @@
 import { BlitzPage } from 'blitz'
-import Layout from 'app/core/layouts/Layout'
+import { Layout } from 'app/core/layouts/Layout'
 import { ChampionGrid } from 'app/components/ChampionGrid'
 
 const Home: BlitzPage = () => {

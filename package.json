@@ -35,7 +35,7 @@
     "postcss": "8.3.11",
     "react": "alpha",
     "react-dom": "alpha",
-    "react-hook-form": "7.19.0",
+    "react-popper-tooltip": "4.3.1",
     "tailwindcss": "2.2.19",
     "twisted": "1.46.3",
     "zod": "3.11.6"

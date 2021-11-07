@@ -29,6 +29,7 @@ model Participant {
   match          Match    @relation(fields: [matchId], references: [id])
 
   @@id([matchId, participantId])
+  @@index([championKey])
   @@index([items])
   @@index([matchId])
 }

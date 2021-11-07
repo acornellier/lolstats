@@ -1,6 +1,5 @@
 import { picksWinsToPercentage, statToPercentage } from '../utils/statUtils'
-import { SpriteImage } from './ItemImage'
-import { useItemDefinition } from 'app/ddragon/items'
+import { ItemIcon } from './ItemIcon'
 import { IdPicksWins } from 'app/utils/statUtils'
 
 interface Props {
@@ -8,14 +7,10 @@ interface Props {
   totalPicks: number
 }
 
-export const Item = ({ item, totalPicks }: Props) => {
-  const itemDefinition = useItemDefinition(item.id)
-
-  if (!itemDefinition) return null
-
+export const ItemStats = ({ item, totalPicks }: Props) => {
   return (
-    <div className="flex flex-col">
-      <SpriteImage image={itemDefinition.image} />
+    <div className="flex flex-col text-sm">
+      <ItemIcon id={item.id} />
       <span>{statToPercentage(item.picks, totalPicks)}%</span>
       <span>{picksWinsToPercentage(item)}%</span>
       <span>{item.picks}</span>
