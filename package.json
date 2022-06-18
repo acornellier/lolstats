@@ -32,7 +32,7 @@
     "autoprefixer": "10.4.0",
     "blitz": "0.42.4",
     "pg": "8.7.1",
-    "postcss": "8.3.11",
+    "postcss": "8.4.14",
     "react": "alpha",
     "react-dom": "alpha",
     "react-popper-tooltip": "4.3.1",
